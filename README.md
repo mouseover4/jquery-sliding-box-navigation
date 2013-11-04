@@ -1,0 +1,3 @@
+Description: This project demonstrates sliding box navigation using a jQuery plugin (navscript.js). The slideshow uses the ubiquitous slides.js. The resume menu item in the navbar takes you to a sample online resume. The document's appearance can be changed by clicking links in the upper right corner (I use a jQuery function to apply different stylesheets onclick). Textboxes animate in when 'show/hide' links are clicked; an image fades out using .explode().
+
+Copyright (c) 2013 Helen Lawrence. All rights reserved.
