@@ -1,0 +1,30 @@
+body {
+	color:#595454;
+}
+
+h1 {
+	font-size:20px;
+	color:#15317E;
+}
+
+h2 {
+	font-size:18px;
+	color:#25587E;
+}
+
+h3 {
+	font-size:16px;
+	color:#2B547E;
+}
+
+hr {
+	color:#15317E;
+}
+
+.details {
+	background-color:#E6E6E6;
+	border-style:solid;
+	border-color:#15317E;
+	border-width:1px;
+	font-size:14px;
+}

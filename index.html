@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Portfolio Page</title>
+        <meta charset="UTF-8"/>      
+		
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="css/global.css">
+        <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+        <style>
+			body{
+				background:url(images/bg.jpg);
+				font-family:Arial;
+			}
+		</style>
+        <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <!--jQuery Slideshow Plugin-->
+        <script src="js/slides.min.jquery.js"></script>
+		<script type="text/javascript" src="js/navscript.js"></script>
+		
+		<!--This function creates the slideshow. Source for slideshow plugin: http://www.slidesjs.com-->
+		<script>
+			$(function(){
+			$('#slides').slides({
+				play: 3000,
+				pause: 1000,
+				hoverPause: true
+			});
+		});
+		</script>
+			
+    </head>
+    <body>
+    	<h1 id="title">Portfolio Template</h1>
+    	<!--Source for jQuery sliding box navigation: http://tympanus.net/codrops/2010/07/16/slide-down-box-menu-->
+		<div class="content">
+			
+			<ul id="sdt_menu" class="sdt_menu">
+				<li>
+					<a href="#">
+						<img src="images/nature1.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">About me</span>
+							<span class="sdt_descr">Get to know me</span>
+						</span>
+					</a>
+					<div class="sdt_box">
+							<a href="#">My Interests</a>
+							<a href="#">Blog</a>
+					</div>
+				</li>
+				<li>
+					<a href="web_resume.html" target="new">
+						<img src="images/nature6.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Resume</span>
+							<span class="sdt_descr">My experience</span>
+						</span>
+					</a>	
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/nature2.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">JS Demos</span>
+							<span class="sdt_descr">JavaScript &amp; jQuery</span>
+						</span>
+					</a>
+					<div class="sdt_box">
+							<a href="#">jQuery Effects</a>
+							<a href="#">Animations</a>
+					</div>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/nature5.jpg" alt=""/>
+						<span class="sdt_active"></span>
+						<span class="sdt_wrap">
+							<span class="sdt_link">Websites</span>
+							<span class="sdt_descr">E-Commerce</span>
+						</span>
+					</a>
+				</li>
+				
+			</ul>
+		</div>	
+		<!--Slideshow container-->
+		<div id="container">
+		<div id="example">
+		
+			<div id="slides">
+				<div class="slides_container">
+					<a href="#"><img src="images/slides/slide3.jpg" alt="Slide 1"></a>
+					<a href="#"><img src="images/slides/slide2.jpg" alt="Slide 2"></a>
+					<a href="#"><img src="images/slides/slide4.jpg" alt="Slide 3"></a>
+					<a href="#"><img src="images/slides/slide5.jpg" alt="Slide 4"></a>
+					<a href="#"><img src="images/slides/slide6.jpg" alt="Slide 5"></a>
+					
+				</div>
+				<a href="#" class="prev"><img src="images/slides/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+				<a href="#" class="next"><img src="images/slides/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+			</div>
+			<img src="images/slides/example-frame.png" width="739" height="341" alt="Example Frame" id="frame">
+		</div>
+		
+	</div>
+		
+			
+	
+    </body>
+</html>

@@ -1,0 +1,51 @@
+body {
+	color:#595454;
+	font-size:20px;
+	background-color:#F2F5A9;
+}
+
+h1 {
+	font-size:28px;
+	color:#380B61;
+}
+
+h2 {
+	font-size:24px;
+	font-weight:bold;
+	color:#240B3B;
+}
+
+h3 {
+	font-size:22px;
+	color:#240B3B;
+}
+
+li{
+	list-style-type:circle;
+}
+
+#controls a {
+	color:#595454;
+	font-size:12px;
+}
+
+.details {
+	background-color:#0B3B24;
+	color:#ffffff;
+	border-style:solid;
+	border-color:#380B61;
+	border-width:1px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+

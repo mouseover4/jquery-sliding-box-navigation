@@ -1,0 +1,35 @@
+body {
+	color:#240B3B;
+	background-color:#CED8F6;
+}
+
+h1 {
+	font-size:20px;
+	color:#DF013A;
+}
+
+h2 {
+	font-size:18px;
+	color:#FE2E64;
+}
+
+h3 {
+	font-size:16px;
+	color:#FE2E64;
+}
+
+hr {
+	color:#DF013A;
+}
+
+.details {
+	background-color:#F5ECCE;
+	border-style:dashed;
+	border-color:#DF013A;
+	border-width:1px;
+	font-size:14px;
+}
+
+li{
+	list-style-type:square;
+}
